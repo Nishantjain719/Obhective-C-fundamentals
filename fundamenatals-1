@@ -1,0 +1,4 @@
+self is a pointer to myself(the current viewController Object). it has a property called balanceLabel. so self.balanceLabel give sme pointer to that balanceLabel which is of type 
+UiLabel and .text gives text value of that label. so i am dynamically allocating string and that call is gonna return a pointer and its gonna assign that address to .text property.
+AppDelegate first allocates the viewController and initializes it and after that make view visible(triggering the actual instantiation of all view objects).Parent View UIView object has addgestureenable
+method also.
